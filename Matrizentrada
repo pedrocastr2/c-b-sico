@@ -7,16 +7,16 @@ int main() {
 	int matriz[3][3];
 	int i,c;
 
-	matriz[0][0] = 0;
-	matriz[0][1] = 0;
-	matriz[0][2] = 0;
-	matriz[1][0] = 1;
-	matriz[1][0] = 1;
-	matriz[1][1] = 1;
-	matriz[1][2] = 1;
-	matriz[2][0] = 2;
-	matriz[2][1] = 2;
-	matriz[2][2] = 2;
+
+for(i=0;i<3;i++) {
+
+		for (c = 0; c < 3; c++) {
+			cin >> matriz [i][c];
+
+	    }
+		cout << "\n";
+	}
+
 
 	for(i=0;i<3;i++) {
 
