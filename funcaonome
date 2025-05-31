@@ -1,0 +1,25 @@
+#include <iostream>
+//int args armazenamento de argumentos, char *argv [] é uma matrix de um ponteiro.
+
+
+using namespace std;
+
+void texto();
+
+int main()
+{
+
+
+    texto();
+    texto();
+    texto();
+
+    return 0;
+
+}
+
+void texto() {
+    cout << "\nEstudo c++\n";
+
+
+}
